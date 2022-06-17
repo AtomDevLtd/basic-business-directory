@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+# DevOcean React Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+The goal of this task is to create a very basic business directory.
 
-## Available Scripts
+# Requirements
 
-In the project directory, you can run:
+• The following API will be used to retrieve the data:
+https://feinterviewtask.azurewebsites.net/b/6231abada703bb67492d2b8f
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+• Design is available using the following link: https://zpl.io/scene/a8elJGQ
+You are to attempt to match each view as closely as possible to the provided designs
+• The Application will have 2 views. The list view will include a list of businesses, with the business name and description. By clicking any business in this list, the user will be taken to an Item view which will display more information about the selected business
+• Each view must have its own URL/route
+• The list view must contain the following information
+o Business Name
+o Business Description
+• The Item view must contain the following information
+o Business address
+o Business contact information, including name and phone number
+o Nearby Places: a list of other businesses with the same city as the selected business
+• The image used in the item view is provided in the same HTTP call as the rest of the business information

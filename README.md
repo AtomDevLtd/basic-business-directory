@@ -19,3 +19,9 @@ o Business address
 o Business contact information, including name and phone number
 o Nearby Places: a list of other businesses with the same city as the selected business
 • The image used in the item view is provided in the same HTTP call as the rest of the business information
+
+# How to run
+
+Install dependencies by using `npm install` or `yarn`
+
+Start the app by using `npm start` or `yarn start`

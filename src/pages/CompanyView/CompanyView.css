@@ -3,6 +3,7 @@
     flex-direction: column;
     flex: 1;
     overflow: scroll;
+    overflow-x: auto;
     height: 75vh;
     padding: 45px 55px;
     background-color: #f8f8fa;
